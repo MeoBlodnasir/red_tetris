@@ -2,9 +2,9 @@ import React from "react"
 import { connect } from 'react-redux'
 import Button from '../components/Button'
 
-const Layout = (num, onButtonClick) => {
+const Layout = (num, onButtonClick) => (
 	<Button num={num} onClick={onButtonClick} />
-}
+	)
 
 const mapStateToProps = (state) => {
 	return {
