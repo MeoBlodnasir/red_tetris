@@ -3,7 +3,7 @@ export default function reducer(state={
 
 	switch (action.type) {
 		case "UP": {
-			return {...state, num: state.num + 1}
+			return {num: state.num + 1}
 		}
 				   defaut:
 					   break ;

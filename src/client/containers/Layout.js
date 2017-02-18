@@ -8,7 +8,7 @@ const Layout = ({num, onButtonClick}) => (
 
 const mapStateToProps = (state) => {
 	return {
-		num: state.num,
+		num: state.num
 	}
 }
 
