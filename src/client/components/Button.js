@@ -1,4 +1,5 @@
-import React from "react"
+import React, { PropTypes } from 'react'
+
 
 const Button = ({num, onClick}) => (
 	  <button onClick={onClick}>
@@ -6,3 +7,8 @@ const Button = ({num, onClick}) => (
 	    </button>
 		)
 export default Button
+
+Button.propTypes = {
+	num: PropTypes.number.isRequired,
+	onClick: PropTypes.func.isRequired
+}
